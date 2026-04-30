@@ -1,0 +1,2 @@
+patchedDependencies:
+  react-aria-components: patches/react-aria-components.patch
