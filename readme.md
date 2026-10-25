@@ -40,3 +40,4 @@ The patch is ~4 000 lines long and marks every file as deleted, which means appl
 
 - `pnpm-workspace.yaml` registers the patch via `patchedDependencies`.
 - The edited file (`dist/private/utils.js`) is visible under `node_modules/.pnpm_patches/`, but the change is absent from the generated patch.
+- Minimal reproduction repo: https://github.com/cyberuni/pnpm-patch-issue
